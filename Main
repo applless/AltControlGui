@@ -131,7 +131,7 @@ local Label = Instance.new("TextLabel")
 
 
 AltControlGui.Name = "AltControlGui"
-AltControlGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+AltControlGui.Parent = game.CoreGui
 AltControlGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 BackFrame.Name = "BackFrame"
