@@ -1151,7 +1151,7 @@ local function BFLX_fake_script() -- train.LocalScript
 
 	script.Parent.MouseButton1Click:Connect(function()
 		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
-		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "All")
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
 		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
 		x.MessagePosted:fire(Prefix.."setup "..script.Parent.Name)
 		warn(Prefix.."setup "..script.Parent.Name)
@@ -1165,7 +1165,7 @@ local function BIUZRS_fake_script() -- admin.LocalScript
 
 	script.Parent.MouseButton1Click:Connect(function()
 		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
-		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "All")
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
 		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
 		x.MessagePosted:fire(Prefix.."setup "..script.Parent.Name)
 		warn(Prefix.."setup "..script.Parent.Name)
@@ -1179,7 +1179,7 @@ local function UOYSD_fake_script() -- bank.LocalScript
 
 	script.Parent.MouseButton1Click:Connect(function()
 		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
-		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "All")
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
 		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
 		x.MessagePosted:fire(Prefix.."setup "..script.Parent.Name)
 		warn(Prefix.."setup "..script.Parent.Name)
@@ -1202,7 +1202,7 @@ local function CIFE_fake_script() -- random.LocalScript
 
 	script.Parent.MouseButton1Click:Connect(function()
 		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
-		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "All")
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
 		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
 		x.MessagePosted:fire(Prefix.."alts "..script.Parent.Name)
 		warn(Prefix.."alts "..script.Parent.Name)
@@ -1216,7 +1216,7 @@ local function TFBCBI_fake_script() -- line.LocalScript
 
 	script.Parent.MouseButton1Click:Connect(function()
 		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
-		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "All")
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
 		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
 		x.MessagePosted:fire(Prefix.."alts "..script.Parent.Name)
 		warn(Prefix.."alts "..script.Parent.Name)
@@ -1230,7 +1230,7 @@ local function TQHJOTO_fake_script() -- spot.LocalScript
 
 	script.Parent.MouseButton1Click:Connect(function()
 		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
-		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "All")
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
 		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
 		x.MessagePosted:fire(Prefix.."alts "..script.Parent.Name)
 		warn(Prefix.."alts "..script.Parent.Name)
@@ -1244,7 +1244,7 @@ local function JDWV_fake_script() -- stop.LocalScript
 
 	script.Parent.MouseButton1Click:Connect(function()
 		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
-		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "All")
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
 		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
 		x.MessagePosted:fire(Prefix..script.Parent.Name)
 		warn(Prefix..script.Parent.Name)
@@ -1258,7 +1258,7 @@ local function AHTD_fake_script() -- drop.LocalScript
 
 	script.Parent.MouseButton1Click:Connect(function()
 		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
-		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "All")
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
 		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
 		x.MessagePosted:fire(Prefix..script.Parent.Name)
 		warn(Prefix..script.Parent.Name)
@@ -1273,7 +1273,7 @@ local function CLYLIA_fake_script() -- TextBox_2.LocalScript
 	script.Parent.FocusLost:Connect(function()
 		wait(.1)
 		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
-		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "All")
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
 		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
 		x.MessagePosted:fire(Prefix.."cdrop "..script.Parent.Text)
 		warn(Prefix.."cdrop "..script.Parent.Text)
@@ -1286,7 +1286,7 @@ local function UDONKYB_fake_script() -- TextBox_3.LocalScript
 	script.Parent.FocusLost:Connect(function()
 		wait(.1)
 		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
-		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "All")
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
 		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
 		x.MessagePosted:fire(Prefix.."crash "..script.Parent.Text)
 		warn(Prefix.."crash "..script.Parent.Text)
@@ -1310,7 +1310,7 @@ local function YXMVQ_fake_script() -- bank_2.LocalScript
 
 	script.Parent.MouseButton1Click:Connect(function()
 		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
-		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "All")
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
 		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
 		x.MessagePosted:fire(Prefix.."tp "..script.Parent.Parent.TextBox.Text.." "..script.Parent.Name)
 		warn(Prefix.."tp "..script.Parent.Parent.TextBox.Text.." "..script.Parent.Name)
@@ -1324,7 +1324,7 @@ local function YRJXZUH_fake_script() -- admin_2.LocalScript
 
 	script.Parent.MouseButton1Click:Connect(function()
 		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
-		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "All")
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
 		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
 		x.MessagePosted:fire(Prefix.."tp "..script.Parent.Parent.TextBox.Text.." "..script.Parent.Name)
 		warn(Prefix.."tp "..script.Parent.Parent.TextBox.Text.." "..script.Parent.Name)
@@ -1338,7 +1338,7 @@ local function FZZU_fake_script() -- train_2.LocalScript
 
 	script.Parent.MouseButton1Click:Connect(function()
 		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
-		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "All")
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
 		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
 		x.MessagePosted:fire(Prefix.."tp "..script.Parent.Parent.TextBox.Text.." "..script.Parent.Name)
 		warn(Prefix.."tp "..script.Parent.Parent.TextBox.Text.." "..script.Parent.Name)
@@ -1352,7 +1352,7 @@ local function XZBV_fake_script() -- host.LocalScript
 
 	script.Parent.MouseButton1Click:Connect(function()
 		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
-		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "All")
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
 		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
 		x.MessagePosted:fire(Prefix.."tp "..script.Parent.Parent.TextBox.Text.." "..script.Parent.Name)
 		warn(Prefix.."tp "..script.Parent.Parent.TextBox.Text.." "..script.Parent.Name)
@@ -1367,7 +1367,7 @@ local function QLMAZ_fake_script() -- TextBox_5.LocalScript
 	script.Parent.FocusLost:Connect(function()
 		wait(.1)
 		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
-		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "All")
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
 		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
 		x.MessagePosted:fire(Prefix.."stomp "..script.Parent.Text)
 		warn(Prefix.."stomp "..script.Parent.Text)
@@ -1392,7 +1392,7 @@ local function JSOGSOV_fake_script() -- hide.LocalScript
 
 	script.Parent.MouseButton1Click:Connect(function()
 		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
-		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "All")
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
 		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
 		x.MessagePosted:fire(Prefix.."money "..script.Parent.Name)
 		warn(Prefix.."money "..script.Parent.Name)
@@ -1406,7 +1406,7 @@ local function JCNF_fake_script() -- show.LocalScript
 
 	script.Parent.MouseButton1Click:Connect(function()
 		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
-		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "All")
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
 		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
 		x.MessagePosted:fire(Prefix.."money "..script.Parent.Name)
 		warn(Prefix.."money "..script.Parent.Name)
@@ -1420,7 +1420,7 @@ local function BENEBIV_fake_script() -- off.LocalScript
 
 	script.Parent.MouseButton1Click:Connect(function()
 		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
-		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "All")
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
 		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
 		x.MessagePosted:fire(Prefix.."advert "..script.Parent.Name)
 		warn(Prefix.."advert "..script.Parent.Name)
@@ -1434,7 +1434,7 @@ local function GCQIJ_fake_script() -- on.LocalScript
 
 	script.Parent.MouseButton1Click:Connect(function()
 		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
-		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "All")
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
 		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
 		x.MessagePosted:fire(Prefix.."advert "..script.Parent.Name)
 		warn(Prefix.."advert "..script.Parent.Name)
@@ -1449,7 +1449,7 @@ local function XBTA_fake_script() -- TextBox_6.LocalScript
 	script.Parent.FocusLost:Connect(function()
 		wait(.1)
 		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
-		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "All")
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
 		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
 		x.MessagePosted:fire(Prefix.."advertnew "..script.Parent.Text)
 		warn(Prefix.."advertnew "..script.Parent.Text)
@@ -1462,7 +1462,7 @@ local function PQCZLP_fake_script() -- TextBox_7.LocalScript
 	script.Parent.FocusLost:Connect(function()
 		wait(.1)
 		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
-		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "All")
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
 		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
 		x.MessagePosted:fire(Prefix.."say "..script.Parent.Text)
 		warn(Prefix.."say "..script.Parent.Text)
@@ -1474,7 +1474,7 @@ local function KUEOI_fake_script() -- off_2.LocalScript
 
 	script.Parent.MouseButton1Click:Connect(function()
 		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
-		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "All")
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
 		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
 		x.MessagePosted:fire(Prefix.."destroycash "..script.Parent.Name)
 		warn(Prefix.."destroycash "..script.Parent.Name)
@@ -1488,7 +1488,7 @@ local function PAPN_fake_script() -- on_2.LocalScript
 
 	script.Parent.MouseButton1Click:Connect(function()
 		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
-		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "All")
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
 		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
 		x.MessagePosted:fire(Prefix.."destroycash "..script.Parent.Name)
 		warn(Prefix.."destroycash "..script.Parent.Name)
@@ -1502,7 +1502,7 @@ local function PJXOWGS_fake_script() -- reset.LocalScript
 
 	script.Parent.MouseButton1Click:Connect(function()
 		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
-		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "All")
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
 		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
 		x.MessagePosted:fire(Prefix..script.Parent.Name)
 		warn(Prefix..script.Parent.Name)
@@ -1516,7 +1516,7 @@ local function TYNA_fake_script() -- encrypt.LocalScript
 
 	script.Parent.MouseButton1Click:Connect(function()
 		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
-		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "All")
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
 		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
 		x.MessagePosted:fire(Prefix.."load "..script.Parent.Name)
 		warn(Prefix.."load "..script.Parent.Name)
@@ -1530,7 +1530,7 @@ local function DOUZLR_fake_script() -- swagmode.LocalScript
 
 	script.Parent.MouseButton1Click:Connect(function()
 		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
-		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "All")
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
 		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
 		x.MessagePosted:fire(Prefix.."load "..script.Parent.Name)
 		warn(Prefix.."load "..script.Parent.Name)
@@ -1544,7 +1544,7 @@ local function OELDWN_fake_script() -- godmode.LocalScript
 
 	script.Parent.MouseButton1Click:Connect(function()
 		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
-		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "All")
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
 		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
 		x.MessagePosted:fire(Prefix..script.Parent.Name)
 		warn(Prefix..script.Parent.Name)
@@ -1558,7 +1558,7 @@ local function CMDGB_fake_script() -- off_3.LocalScript
 
 	script.Parent.MouseButton1Click:Connect(function()
 		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
-		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "All")
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
 		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
 		x.MessagePosted:fire(Prefix.."antistomp "..script.Parent.Name)
 		warn(Prefix.."antistomp "..script.Parent.Name)
@@ -1572,7 +1572,7 @@ local function PKOQ_fake_script() -- on_3.LocalScript
 
 	script.Parent.MouseButton1Click:Connect(function()
 		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
-		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "All")
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
 		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
 		x.MessagePosted:fire(Prefix.."antistomp "..script.Parent.Name)
 		warn(Prefix.."antistomp "..script.Parent.Name)
@@ -1586,7 +1586,7 @@ local function UDZT_fake_script() -- unhide.LocalScript
 
 	script.Parent.MouseButton1Click:Connect(function()
 		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
-		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "All")
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
 		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
 		x.MessagePosted:fire(Prefix..script.Parent.Name)
 		warn(Prefix..script.Parent.Name)
@@ -1600,7 +1600,7 @@ local function NRVM_fake_script() -- hide_2.LocalScript
 
 	script.Parent.MouseButton1Click:Connect(function()
 		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
-		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "All")
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
 		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
 		x.MessagePosted:fire(Prefix..script.Parent.Name)
 		warn(Prefix..script.Parent.Name)
@@ -1615,7 +1615,7 @@ local function TFPC_fake_script() -- TextBox_8.LocalScript
 	script.Parent.FocusLost:Connect(function()
 		wait(.1)
 		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
-		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "All")
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
 		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
 		x.MessagePosted:fire(Prefix.."fps "..tonumber(script.Parent.Text))
 		warn(Prefix.."fps "..tonumber(script.Parent.Text))
@@ -1627,7 +1627,7 @@ local function EFCXV_fake_script() -- unlock.LocalScript
 
 	script.Parent.MouseButton1Click:Connect(function()
 		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
-		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "All")
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
 		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
 		x.MessagePosted:fire(Prefix..script.Parent.Name)
 		warn(Prefix..script.Parent.Name)
@@ -1641,7 +1641,7 @@ local function PCKOB_fake_script() -- airlock.LocalScript
 
 	script.Parent.MouseButton1Click:Connect(function()
 		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
-		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "All")
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
 		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
 		x.MessagePosted:fire(Prefix..script.Parent.Name)
 		warn(Prefix..script.Parent.Name)
@@ -1655,7 +1655,7 @@ local function VASZYIL_fake_script() -- off_4.LocalScript
 
 	script.Parent.MouseButton1Click:Connect(function()
 		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
-		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "All")
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
 		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
 		x.MessagePosted:fire(Prefix.."benx "..script.Parent.Name)
 		warn(Prefix.."benx "..script.Parent.Name)
@@ -1669,7 +1669,7 @@ local function LBENC_fake_script() -- on_4.LocalScript
 
 	script.Parent.MouseButton1Click:Connect(function()
 		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
-		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "All")
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
 		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
 		x.MessagePosted:fire(Prefix.."benx "..script.Parent.Name)
 		warn(Prefix.."benx "..script.Parent.Name)
