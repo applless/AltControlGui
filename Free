@@ -1,0 +1,483 @@
+
+local AltControlGui = Instance.new("ScreenGui")
+local BackFrame = Instance.new("Frame")
+local Main = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Fill = Instance.new("Frame")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local _0Setup = Instance.new("Frame")
+local Setup = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local _1Dropping = Instance.new("Frame")
+local stop = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local drop = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local Crash = Instance.new("Frame")
+local Crash_2 = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local Z = Instance.new("TextLabel")
+local _2DestroyCash = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local off = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local on = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local UIListLayout = Instance.new("UIListLayout")
+local Fps = Instance.new("Frame")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextBox = Instance.new("TextBox")
+local UICorner_8 = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
+local TopBar = Instance.new("Frame")
+local Corner = Instance.new("UICorner")
+local Fill_2 = Instance.new("Frame")
+local Toggle = Instance.new("ImageButton")
+local Label = Instance.new("TextLabel")
+
+
+
+AltControlGui.Name = "AltControlGui"
+AltControlGui.Parent = game.CoreGui
+AltControlGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+BackFrame.Name = "BackFrame"
+BackFrame.Parent = AltControlGui
+BackFrame.BackgroundColor3 = Color3.fromRGB(168, 92, 255)
+BackFrame.BackgroundTransparency = 1.000
+BackFrame.BorderSizePixel = 0
+BackFrame.ClipsDescendants = true
+BackFrame.Position = UDim2.new(0.425000012, 0, 0.374000013, 0)
+BackFrame.Size = UDim2.new(0, 210, 0, 270)
+BackFrame.ZIndex = -999
+
+Main.Name = "Main"
+Main.Parent = BackFrame
+Main.Active = true
+Main.BackgroundColor3 = Color3.fromRGB(123, 125, 255)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(0, 0, 0.0930000022, 0)
+Main.Size = UDim2.new(0, 210, 0, 245)
+
+UICorner.CornerRadius = UDim.new(0, 4)
+UICorner.Parent = Main
+
+Fill.Name = "Fill"
+Fill.Parent = Main
+Fill.BackgroundColor3 = Color3.fromRGB(123, 125, 255)
+Fill.BorderSizePixel = 0
+Fill.Position = UDim2.new(0, 0, -0.00128497684, 0)
+Fill.Size = UDim2.new(0, 210, 0, 4)
+
+ScrollingFrame.Parent = Main
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.BackgroundTransparency = 1.000
+ScrollingFrame.BorderSizePixel = 0
+ScrollingFrame.Size = UDim2.new(0, 209, 0, 245)
+ScrollingFrame.ZIndex = 2
+ScrollingFrame.CanvasSize = UDim2.new(0, 0, 4.5, 0)
+ScrollingFrame.ScrollBarThickness = 3
+
+_0Setup.Name = "0Setup"
+_0Setup.Parent = ScrollingFrame
+_0Setup.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+_0Setup.BackgroundTransparency = 0.500
+_0Setup.BorderColor3 = Color3.fromRGB(27, 42, 53)
+_0Setup.BorderSizePixel = 0
+_0Setup.Position = UDim2.new(0, 0, 0.0294784568, 0)
+_0Setup.Size = UDim2.new(0, 209, 0, 25)
+
+Setup.Name = "Setup"
+Setup.Parent = _0Setup
+Setup.AnchorPoint = Vector2.new(0.5, 0.5)
+Setup.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+Setup.BorderSizePixel = 0
+Setup.Position = UDim2.new(0.495679379, 0, 0.5, 0)
+Setup.Size = UDim2.new(0, 60, 0, 20)
+Setup.Font = Enum.Font.GothamBold
+Setup.Text = "Setup"
+Setup.TextColor3 = Color3.fromRGB(255, 255, 255)
+Setup.TextSize = 15.000
+
+UICorner_2.CornerRadius = UDim.new(0, 6)
+UICorner_2.Parent = Setup
+
+_1Dropping.Name = "1Dropping"
+_1Dropping.Parent = ScrollingFrame
+_1Dropping.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+_1Dropping.BackgroundTransparency = 0.500
+_1Dropping.BorderColor3 = Color3.fromRGB(27, 42, 53)
+_1Dropping.BorderSizePixel = 0
+_1Dropping.Position = UDim2.new(0, 0, 0.188999996, 0)
+_1Dropping.Size = UDim2.new(0, 209, 0, 25)
+
+stop.Name = "stop"
+stop.Parent = _1Dropping
+stop.AnchorPoint = Vector2.new(0.5, 0.5)
+stop.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+stop.BorderSizePixel = 0
+stop.Position = UDim2.new(0.682282269, 0, 0.5, 0)
+stop.Size = UDim2.new(0, 60, 0, 20)
+stop.Font = Enum.Font.GothamBold
+stop.Text = "Stop"
+stop.TextColor3 = Color3.fromRGB(255, 255, 255)
+stop.TextSize = 14.000
+
+UICorner_3.CornerRadius = UDim.new(0, 6)
+UICorner_3.Parent = stop
+
+drop.Name = "drop"
+drop.Parent = _1Dropping
+drop.AnchorPoint = Vector2.new(0.5, 0.5)
+drop.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+drop.BorderSizePixel = 0
+drop.Position = UDim2.new(0.318645924, 0, 0.5, 0)
+drop.Size = UDim2.new(0, 60, 0, 20)
+drop.Font = Enum.Font.GothamBold
+drop.Text = "Drop"
+drop.TextColor3 = Color3.fromRGB(255, 255, 255)
+drop.TextSize = 14.000
+
+UICorner_4.CornerRadius = UDim.new(0, 6)
+UICorner_4.Parent = drop
+
+Crash.Name = "Crash"
+Crash.Parent = ScrollingFrame
+Crash.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+Crash.BackgroundTransparency = 0.500
+Crash.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Crash.BorderSizePixel = 0
+Crash.Position = UDim2.new(0, 0, 0.317265332, 0)
+Crash.Size = UDim2.new(0, 209, 0, 25)
+
+Crash_2.Name = "Crash"
+Crash_2.Parent = Crash
+Crash_2.AnchorPoint = Vector2.new(0.5, 0.5)
+Crash_2.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+Crash_2.BorderSizePixel = 0
+Crash_2.Position = UDim2.new(0.500464082, 0, 0.5, 0)
+Crash_2.Size = UDim2.new(0, 60, 0, 20)
+Crash_2.Font = Enum.Font.GothamBold
+Crash_2.Text = "Crash"
+Crash_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Crash_2.TextSize = 15.000
+
+UICorner_5.CornerRadius = UDim.new(0, 6)
+UICorner_5.Parent = Crash_2
+
+Z.Name = "Z"
+Z.Parent = ScrollingFrame
+Z.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Z.BackgroundTransparency = 1.000
+Z.Position = UDim2.new(0, 0, 0.673469365, 0)
+Z.Size = UDim2.new(0, 209, 0, 29)
+Z.Font = Enum.Font.GothamBold
+Z.Text = "BUY PREM                      discord.gg/iku"
+Z.TextColor3 = Color3.fromRGB(255, 255, 255)
+Z.TextSize = 14.000
+Z.TextWrapped = true
+Z.TextYAlignment = Enum.TextYAlignment.Bottom
+
+_2DestroyCash.Name = "2DestroyCash"
+_2DestroyCash.Parent = ScrollingFrame
+_2DestroyCash.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+_2DestroyCash.BackgroundTransparency = 0.500
+_2DestroyCash.BorderColor3 = Color3.fromRGB(27, 42, 53)
+_2DestroyCash.BorderSizePixel = 0
+_2DestroyCash.Position = UDim2.new(-4.65661287e-10, 0, 0.828571439, 0)
+_2DestroyCash.Size = UDim2.new(0, 209, 0, 25)
+
+TextLabel.Parent = _2DestroyCash
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Size = UDim2.new(0, 51, 0, 25)
+TextLabel.Font = Enum.Font.GothamBlack
+TextLabel.Text = "  DestroyCash"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 10.000
+TextLabel.TextXAlignment = Enum.TextXAlignment.Left
+
+off.Name = "off"
+off.Parent = _2DestroyCash
+off.AnchorPoint = Vector2.new(0.5, 0.5)
+off.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+off.BorderSizePixel = 0
+off.Position = UDim2.new(0.856923461, 0, 0.5, 0)
+off.Size = UDim2.new(0, 45, 0, 20)
+off.Font = Enum.Font.GothamBold
+off.Text = "Off"
+off.TextColor3 = Color3.fromRGB(255, 255, 255)
+off.TextSize = 14.000
+
+UICorner_6.CornerRadius = UDim.new(0, 6)
+UICorner_6.Parent = off
+
+on.Name = "on"
+on.Parent = _2DestroyCash
+on.AnchorPoint = Vector2.new(0.5, 0.5)
+on.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+on.BorderSizePixel = 0
+on.Position = UDim2.new(0.608119607, 0, 0.5, 0)
+on.Size = UDim2.new(0, 45, 0, 20)
+on.Font = Enum.Font.GothamBold
+on.Text = "On"
+on.TextColor3 = Color3.fromRGB(255, 255, 255)
+on.TextSize = 14.000
+
+UICorner_7.CornerRadius = UDim.new(0, 6)
+UICorner_7.Parent = on
+
+UIListLayout.Parent = ScrollingFrame
+UIListLayout.Padding = UDim.new(0, 8)
+
+Fps.Name = "Fps"
+Fps.Parent = ScrollingFrame
+Fps.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+Fps.BackgroundTransparency = 0.500
+Fps.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Fps.BorderSizePixel = 0
+Fps.Position = UDim2.new(0, 0, 0.317265332, 0)
+Fps.Size = UDim2.new(0, 209, 0, 25)
+
+TextLabel_2.Parent = Fps
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Size = UDim2.new(0, 51, 0, 25)
+TextLabel_2.Font = Enum.Font.GothamBlack
+TextLabel_2.Text = "  FPS"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextXAlignment = Enum.TextXAlignment.Left
+
+TextBox.Parent = Fps
+TextBox.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+TextBox.BorderSizePixel = 0
+TextBox.Position = UDim2.new(0.749268055, 0, 0.0799999982, 0)
+TextBox.Size = UDim2.new(0, 45, 0, 20)
+TextBox.Font = Enum.Font.SourceSansBold
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.TextScaled = true
+TextBox.TextSize = 50.000
+TextBox.TextWrapped = true
+
+UICorner_8.CornerRadius = UDim.new(0, 6)
+UICorner_8.Parent = TextBox
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.32, Color3.fromRGB(227, 227, 227)), ColorSequenceKeypoint.new(0.64, Color3.fromRGB(195, 195, 195)), ColorSequenceKeypoint.new(0.89, Color3.fromRGB(184, 184, 184)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(161, 161, 161))}
+UIGradient.Rotation = 120
+UIGradient.Parent = Main
+
+TopBar.Name = "TopBar"
+TopBar.Parent = BackFrame
+TopBar.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+TopBar.BorderSizePixel = 0
+TopBar.Size = UDim2.new(0, 210, 0, 25)
+
+Corner.CornerRadius = UDim.new(0, 4)
+Corner.Name = "Corner"
+Corner.Parent = TopBar
+
+Fill_2.Name = "Fill"
+Fill_2.Parent = TopBar
+Fill_2.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+Fill_2.BorderSizePixel = 0
+Fill_2.Position = UDim2.new(0, 0, 0.706666231, 0)
+Fill_2.Size = UDim2.new(0, 210, 0, 9)
+
+Toggle.Name = "Toggle"
+Toggle.Parent = TopBar
+Toggle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Toggle.BackgroundTransparency = 1.000
+Toggle.Position = UDim2.new(0.876190543, 0, 0, 0)
+Toggle.Rotation = 180.000
+Toggle.Size = UDim2.new(0, 25, 0, 25)
+Toggle.Image = "http://www.roblox.com/asset/?id=6034818379"
+
+Label.Name = "Label"
+Label.Parent = TopBar
+Label.Active = true
+Label.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Label.BackgroundTransparency = 1.000
+Label.Size = UDim2.new(0, 107, 0, 25)
+Label.Font = Enum.Font.GothamBold
+Label.Text = "  Alt Control Gui (Free)"
+Label.TextColor3 = Color3.fromRGB(255, 255, 255)
+Label.TextSize = 12.000
+Label.TextXAlignment = Enum.TextXAlignment.Left
+
+
+local function YMBNCUL_fake_script() -- Setup.LocalScript 
+	local script = Instance.new('LocalScript', Setup)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
+		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
+		x.MessagePosted:fire(".setup")
+		warn(".setup")
+	end)
+	
+	
+end
+coroutine.wrap(YMBNCUL_fake_script)()
+local function MDYMI_fake_script() -- stop.LocalScript 
+	local script = Instance.new('LocalScript', stop)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
+		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
+		x.MessagePosted:fire("."..script.Parent.Name)
+		warn("."..script.Parent.Name)
+	end)
+	
+	
+end
+coroutine.wrap(MDYMI_fake_script)()
+local function MVJURK_fake_script() -- drop.LocalScript 
+	local script = Instance.new('LocalScript', drop)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
+		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
+		x.MessagePosted:fire("."..script.Parent.Name)
+		warn("."..script.Parent.Name)
+	end)
+	
+	
+end
+coroutine.wrap(MVJURK_fake_script)()
+local function PVSU_fake_script() -- Crash_2.LocalScript 
+	local script = Instance.new('LocalScript', Crash_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
+		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
+		x.MessagePosted:fire(".crash")
+		warn(".crash")
+	end)
+	
+	
+end
+coroutine.wrap(PVSU_fake_script)()
+local function QWHWJ_fake_script() -- off.LocalScript 
+	local script = Instance.new('LocalScript', off)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
+		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
+		x.MessagePosted:fire(".loopdestroy "..script.Parent.Name)
+		warn(".loopdestroy "..script.Parent.Name)
+	end)
+	
+	
+end
+coroutine.wrap(QWHWJ_fake_script)()
+local function MKLA_fake_script() -- on.LocalScript 
+	local script = Instance.new('LocalScript', on)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
+		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
+		x.MessagePosted:fire(".loopdestroy "..script.Parent.Name)
+		warn(".loopdestroy "..script.Parent.Name)
+	end)
+	
+	
+end
+coroutine.wrap(MKLA_fake_script)()
+local function XBYUG_fake_script() -- TextBox.LocalScript 
+	local script = Instance.new('LocalScript', TextBox)
+
+	script.Parent.FocusLost:Connect(function()
+		wait(.1)
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
+		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
+		x.MessagePosted:fire(".fps "..tonumber(script.Parent.Text))
+		warn(".fps "..tonumber(script.Parent.Text))
+	end)
+end
+coroutine.wrap(XBYUG_fake_script)()
+local function UNWJ_fake_script() -- Toggle.LocalScript 
+	local script = Instance.new('LocalScript', Toggle)
+
+	Toggled = false 
+	Clicked = false
+	script.Parent.MouseButton1Click:Connect(function()
+	local X = script.Parent.Parent.Parent.Main
+		local Close = game:GetService("TweenService"):Create(X,TweenInfo.new(.6,Enum.EasingStyle.Quart,Enum.EasingDirection.Out),{ Position = X.Position + UDim2.new(0,0,0,280)})
+		local Open = game:GetService("TweenService"):Create(X,TweenInfo.new(.6,Enum.EasingStyle.Quart,Enum.EasingDirection.Out),{ Position = X.Position + UDim2.new(0,0,0,-280)})
+		local Spin = game:GetService("TweenService"):Create(script.Parent,TweenInfo.new(.6,Enum.EasingStyle.Quart,Enum.EasingDirection.Out),{ Rotation = script.Parent.Rotation + 180 })
+		if Toggled == true and Clicked == false then 
+			Clicked = true
+			Spin:Play()
+			Close:Play()
+			X.Visible = true
+			X.Active = true
+			wait(.8)
+			Toggled = false
+			Clicked = false 
+		else if Toggled == false and Clicked == false then 
+				Clicked = true 
+				Spin:Play()
+				Open:Play()
+				wait(.8)
+				X.Visible = false
+				X.Active = false	
+				Toggled = true
+				Clicked = false
+			end
+			
+		end
+	end)
+end
+coroutine.wrap(UNWJ_fake_script)()
+local function LPYPQPB_fake_script() -- TopBar.Drag 
+	local script = Instance.new('LocalScript', TopBar)
+
+	local Drag = script.Parent.Parent
+	gsCoreGui = game:GetService("CoreGui")
+	gsTween = game:GetService("TweenService")
+	local UserInputService = game:GetService("UserInputService")
+		local dragging
+		local dragInput
+		local dragStart
+		local startPos
+		local function update(input)
+			local delta = input.Position - dragStart
+			local dragTime = 0.04
+			local SmoothDrag = {}
+			SmoothDrag.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+			local dragSmoothFunction = gsTween:Create(Drag, TweenInfo.new(dragTime, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut), SmoothDrag)
+			dragSmoothFunction:Play()
+		end
+		Drag.InputBegan:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+				dragging = true
+				dragStart = input.Position
+				startPos = Drag.Position
+				input.Changed:Connect(function()
+					if input.UserInputState == Enum.UserInputState.End then
+						dragging = false
+					end
+				end)
+			end
+		end)
+		Drag.InputChanged:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+				dragInput = input
+			end
+		end)
+		UserInputService.InputChanged:Connect(function(input)
+			if input == dragInput and dragging and Drag.Size then
+				update(input)
+			end
+		end)
+	
+end
+coroutine.wrap(LPYPQPB_fake_script)()
