@@ -1,2 +1,1 @@
---// Only for prem users
-loadstring(game:HttpGet('https://raw.githubusercontent.com/applless/AltControlGui/main/Main'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/applless/AltControlGui/main/RankCheck'))()
