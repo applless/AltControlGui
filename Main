@@ -1842,3 +1842,4 @@ local function WPCTA_fake_script() -- TopBar.Drag
 	
 end
 coroutine.wrap(WPCTA_fake_script)()
+end
