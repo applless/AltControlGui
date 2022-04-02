@@ -1206,6 +1206,14 @@ Label.TextXAlignment = Enum.TextXAlignment.Left
 
 local function FOEQ_fake_script() -- train.LocalScript 
 	local script = Instance.new('LocalScript', train)
+game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(key)
+	if key == 'v' then 
+		if game.CoreGui:FindFirstChild("AltControlGui").BackFrame.Visible == true then game.CoreGui:FindFirstChild("AltControlGui").BackFrame.Visible = false
+		else game.CoreGui:FindFirstChild("AltControlGui").BackFrame.Visible = true
+		end
+	end
+end)
+
 
 	script.Parent.MouseButton1Click:Connect(function()
 		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
