@@ -482,3 +482,4 @@ local function LPYPQPB_fake_script() -- TopBar.Drag
 	
 end
 coroutine.wrap(LPYPQPB_fake_script)()
+end
