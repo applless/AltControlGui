@@ -324,7 +324,13 @@ end
 coroutine.wrap(YMBNCUL_fake_script)()
 local function MDYMI_fake_script() -- stop.LocalScript 
 	local script = Instance.new('LocalScript', stop)
-
+game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(key)
+	if key == 'v' then 
+		if game.CoreGui:FindFirstChild("AltControlGui").BackFrame.Visible == true then game.CoreGui:FindFirstChild("AltControlGui").BackFrame.Visible = false
+		else game.CoreGui:FindFirstChild("AltControlGui").BackFrame.Visible = true
+		end
+	end
+end)
 	script.Parent.MouseButton1Click:Connect(function()
 	
 		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
