@@ -1048,7 +1048,7 @@ local function TQCBHED_fake_script() -- random.LocalScript
 		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
 		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
 		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
-		x.MessagePosted:fire(Prefix.."alts "..script.Parent.Name)
+		x.MessagePosted:fire(Prefix.."host "..script.Parent.Name)
 		warn(Prefix.."host "..script.Parent.Name)
 	end)
 	
@@ -1062,7 +1062,7 @@ local function BBQH_fake_script() -- line.LocalScript
 		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
 		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
 		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
-		x.MessagePosted:fire(Prefix.."alts "..script.Parent.Name)
+		x.MessagePosted:fire(Prefix.."host "..script.Parent.Name)
 		warn(Prefix.."host "..script.Parent.Name)
 	end)
 	
@@ -1076,7 +1076,7 @@ local function RDVJ_fake_script() -- spot.LocalScript
 		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
 		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
 		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
-		x.MessagePosted:fire(Prefix.."alts "..script.Parent.Name)
+		x.MessagePosted:fire(Prefix.."host "..script.Parent.Name)
 		warn(Prefix.."host "..script.Parent.Name)
 	end)
 	
