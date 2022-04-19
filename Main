@@ -1,5 +1,5 @@
-if game.CoreGui:FindFirstChild("AltControlGui") then game.StarterGui:SetCore("SendNotification",{Title ="Alt Control Gui",Text ="Script already executed!",Duration =25}) else
-game.StarterGui:SetCore("SendNotification",{Title ="Alt Control Gui",Text ="Updated for the newest version!",Duration =15})
+if game.CoreGui:FindFirstChild("AltControlGui") then game.StarterGui:SetCore("SendNotification",{Title ="Alt Control Gui [1.0.3]",Text ="Script already executed!",Duration =25}) else
+game.StarterGui:SetCore("SendNotification",{Title ="Alt Control Gui [1.0.3]",Text ="Added host circle 😱😱, dm czopek#7877 if any bugs",Duration =25})
 local AltControlGui = Instance.new("ScreenGui")
 local BackFrame = Instance.new("Frame")
 local Main = Instance.new("Frame")
@@ -26,84 +26,89 @@ local line = Instance.new("TextButton")
 local UICorner_7 = Instance.new("UICorner")
 local spot = Instance.new("TextButton")
 local UICorner_8 = Instance.new("UICorner")
+local circle = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
 local _4Dropping = Instance.new("Frame")
 local stop = Instance.new("TextButton")
-local UICorner_9 = Instance.new("UICorner")
-local drop = Instance.new("TextButton")
 local UICorner_10 = Instance.new("UICorner")
+local drop = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
 local _5Cdrop = Instance.new("Frame")
 local TextLabel_4 = Instance.new("TextLabel")
 local TextBox_2 = Instance.new("TextBox")
-local UICorner_11 = Instance.new("UICorner")
+local UICorner_12 = Instance.new("UICorner")
 local _6Airlock = Instance.new("Frame")
 local unlock = Instance.new("TextButton")
-local UICorner_12 = Instance.new("UICorner")
-local airlock = Instance.new("TextButton")
 local UICorner_13 = Instance.new("UICorner")
+local airlock = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
 local _7Bring = Instance.new("Frame")
 local TextLabel_5 = Instance.new("TextLabel")
 local TextBox_3 = Instance.new("TextBox")
-local UICorner_14 = Instance.new("UICorner")
-local bank_2 = Instance.new("TextButton")
 local UICorner_15 = Instance.new("UICorner")
-local admin_2 = Instance.new("TextButton")
+local bank_2 = Instance.new("TextButton")
 local UICorner_16 = Instance.new("UICorner")
-local train_2 = Instance.new("TextButton")
+local admin_2 = Instance.new("TextButton")
 local UICorner_17 = Instance.new("UICorner")
-local host = Instance.new("TextButton")
+local train_2 = Instance.new("TextButton")
 local UICorner_18 = Instance.new("UICorner")
+local host = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
 local Stomp = Instance.new("Frame")
 local TextLabel_6 = Instance.new("TextLabel")
 local TextBox_4 = Instance.new("TextBox")
-local UICorner_19 = Instance.new("UICorner")
+local UICorner_20 = Instance.new("UICorner")
 local _9Money = Instance.new("Frame")
 local TextLabel_7 = Instance.new("TextLabel")
 local hide = Instance.new("TextButton")
-local UICorner_20 = Instance.new("UICorner")
-local show = Instance.new("TextButton")
 local UICorner_21 = Instance.new("UICorner")
+local show = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
 local _8Advert = Instance.new("Frame")
 local TextLabel_8 = Instance.new("TextLabel")
 local off = Instance.new("TextButton")
-local UICorner_22 = Instance.new("UICorner")
-local on = Instance.new("TextButton")
 local UICorner_23 = Instance.new("UICorner")
+local on = Instance.new("TextButton")
+local UICorner_24 = Instance.new("UICorner")
 local Mask = Instance.new("Frame")
 local TextLabel_9 = Instance.new("TextLabel")
 local off_2 = Instance.new("TextButton")
-local UICorner_24 = Instance.new("UICorner")
-local on_2 = Instance.new("TextButton")
 local UICorner_25 = Instance.new("UICorner")
+local on_2 = Instance.new("TextButton")
+local UICorner_26 = Instance.new("UICorner")
 local DelCash = Instance.new("Frame")
 local TextLabel_10 = Instance.new("TextLabel")
 local off_3 = Instance.new("TextButton")
-local UICorner_26 = Instance.new("UICorner")
-local on_3 = Instance.new("TextButton")
 local UICorner_27 = Instance.new("UICorner")
-local Z = Instance.new("TextLabel")
+local on_3 = Instance.new("TextButton")
+local UICorner_28 = Instance.new("UICorner")
+local Y = Instance.new("TextLabel")
 local UIListLayout = Instance.new("UIListLayout")
 local Load = Instance.new("Frame")
 local TextLabel_11 = Instance.new("TextLabel")
 local encrypt = Instance.new("TextButton")
-local UICorner_28 = Instance.new("UICorner")
-local swagmode = Instance.new("TextButton")
 local UICorner_29 = Instance.new("UICorner")
+local swagmode = Instance.new("TextButton")
+local UICorner_30 = Instance.new("UICorner")
 local Ground = Instance.new("Frame")
 local unlock_2 = Instance.new("TextButton")
-local UICorner_30 = Instance.new("UICorner")
-local ground = Instance.new("TextButton")
 local UICorner_31 = Instance.new("UICorner")
+local ground = Instance.new("TextButton")
+local UICorner_32 = Instance.new("UICorner")
 local Fps = Instance.new("Frame")
 local TextLabel_12 = Instance.new("TextLabel")
 local TextBox_5 = Instance.new("TextBox")
-local UICorner_32 = Instance.new("UICorner")
+local UICorner_33 = Instance.new("UICorner")
 local Dropped = Instance.new("Frame")
 local dropped = Instance.new("TextButton")
-local UICorner_33 = Instance.new("UICorner")
+local UICorner_34 = Instance.new("UICorner")
 local AdvertMsg = Instance.new("Frame")
 local TextLabel_13 = Instance.new("TextLabel")
 local TextBox_6 = Instance.new("TextBox")
-local UICorner_34 = Instance.new("UICorner")
+local UICorner_35 = Instance.new("UICorner")
+local Z = Instance.new("Frame")
+local DestroyGui = Instance.new("TextButton")
+local UICorner_36 = Instance.new("UICorner")
 local UIGradient = Instance.new("UIGradient")
 local TopBar = Instance.new("Frame")
 local Corner = Instance.new("UICorner")
@@ -114,7 +119,7 @@ local Label = Instance.new("TextLabel")
 --Properties:
 
 AltControlGui.Name = "AltControlGui"
-AltControlGui.Parent = game.CoreGui
+AltControlGui.Parent = game:GetService("CoreGui")
 AltControlGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 BackFrame.Name = "BackFrame"
@@ -243,7 +248,7 @@ TextBox.BorderSizePixel = 0
 TextBox.Position = UDim2.new(0.749268055, 0, 0.0799999982, 0)
 TextBox.Size = UDim2.new(0, 45, 0, 20)
 TextBox.Font = Enum.Font.SourceSansBold
-TextBox.Text = "/"
+TextBox.Text = "."
 TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextBox.TextScaled = true
 TextBox.TextSize = 50.000
@@ -258,8 +263,8 @@ _3Host.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
 _3Host.BackgroundTransparency = 0.500
 _3Host.BorderColor3 = Color3.fromRGB(27, 42, 53)
 _3Host.BorderSizePixel = 0
-_3Host.Position = UDim2.new(0, 0, 0.124489799, 0)
-_3Host.Size = UDim2.new(0, 209, 0, 25)
+_3Host.Position = UDim2.new(0, 0, 0.269387752, 0)
+_3Host.Size = UDim2.new(0, 208, 0, 50)
 
 TextLabel_3.Parent = _3Host
 TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -276,7 +281,7 @@ random.Parent = _3Host
 random.AnchorPoint = Vector2.new(0.5, 0.5)
 random.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
 random.BorderSizePixel = 0
-random.Position = UDim2.new(0.856923461, 0, 0.5, 0)
+random.Position = UDim2.new(0.620000005, 0, 0.699999988, 0)
 random.Size = UDim2.new(0, 45, 0, 20)
 random.Font = Enum.Font.GothamBold
 random.Text = "Random"
@@ -290,7 +295,7 @@ line.Parent = _3Host
 line.AnchorPoint = Vector2.new(0.5, 0.5)
 line.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
 line.BorderSizePixel = 0
-line.Position = UDim2.new(0.608119607, 0, 0.5, 0)
+line.Position = UDim2.new(0.379999995, 0, 0.699999988, 0)
 line.Size = UDim2.new(0, 45, 0, 20)
 line.Font = Enum.Font.GothamBold
 line.Text = "Line"
@@ -305,7 +310,7 @@ spot.Parent = _3Host
 spot.AnchorPoint = Vector2.new(0.5, 0.5)
 spot.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
 spot.BorderSizePixel = 0
-spot.Position = UDim2.new(0.35453108, 0, 0.5, 0)
+spot.Position = UDim2.new(0.140000001, 0, 0.720000029, 0)
 spot.Size = UDim2.new(0, 45, 0, 20)
 spot.Font = Enum.Font.GothamBold
 spot.Text = "Spot"
@@ -314,6 +319,21 @@ spot.TextSize = 12.000
 
 UICorner_8.CornerRadius = UDim.new(0, 6)
 UICorner_8.Parent = spot
+
+circle.Name = "circle"
+circle.Parent = _3Host
+circle.AnchorPoint = Vector2.new(0.5, 0.5)
+circle.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+circle.BorderSizePixel = 0
+circle.Position = UDim2.new(0.860000014, 0, 0.699999988, 0)
+circle.Size = UDim2.new(0, 45, 0, 20)
+circle.Font = Enum.Font.GothamBold
+circle.Text = "Circle"
+circle.TextColor3 = Color3.fromRGB(255, 255, 255)
+circle.TextSize = 10.000
+
+UICorner_9.CornerRadius = UDim.new(0, 6)
+UICorner_9.Parent = circle
 
 _4Dropping.Name = "4Dropping"
 _4Dropping.Parent = ScrollingFrame
@@ -336,8 +356,8 @@ stop.Text = "Stop"
 stop.TextColor3 = Color3.fromRGB(255, 255, 255)
 stop.TextSize = 14.000
 
-UICorner_9.CornerRadius = UDim.new(0, 6)
-UICorner_9.Parent = stop
+UICorner_10.CornerRadius = UDim.new(0, 6)
+UICorner_10.Parent = stop
 
 drop.Name = "drop"
 drop.Parent = _4Dropping
@@ -351,8 +371,8 @@ drop.Text = "Drop"
 drop.TextColor3 = Color3.fromRGB(255, 255, 255)
 drop.TextSize = 14.000
 
-UICorner_10.CornerRadius = UDim.new(0, 6)
-UICorner_10.Parent = drop
+UICorner_11.CornerRadius = UDim.new(0, 6)
+UICorner_11.Parent = drop
 
 _5Cdrop.Name = "5Cdrop"
 _5Cdrop.Parent = ScrollingFrame
@@ -385,8 +405,8 @@ TextBox_2.TextScaled = true
 TextBox_2.TextSize = 50.000
 TextBox_2.TextWrapped = true
 
-UICorner_11.CornerRadius = UDim.new(0, 6)
-UICorner_11.Parent = TextBox_2
+UICorner_12.CornerRadius = UDim.new(0, 6)
+UICorner_12.Parent = TextBox_2
 
 _6Airlock.Name = "6Airlock"
 _6Airlock.Parent = ScrollingFrame
@@ -409,8 +429,8 @@ unlock.Text = "Unlock"
 unlock.TextColor3 = Color3.fromRGB(255, 255, 255)
 unlock.TextSize = 14.000
 
-UICorner_12.CornerRadius = UDim.new(0, 6)
-UICorner_12.Parent = unlock
+UICorner_13.CornerRadius = UDim.new(0, 6)
+UICorner_13.Parent = unlock
 
 airlock.Name = "airlock"
 airlock.Parent = _6Airlock
@@ -424,8 +444,8 @@ airlock.Text = "Airlock"
 airlock.TextColor3 = Color3.fromRGB(255, 255, 255)
 airlock.TextSize = 14.000
 
-UICorner_13.CornerRadius = UDim.new(0, 6)
-UICorner_13.Parent = airlock
+UICorner_14.CornerRadius = UDim.new(0, 6)
+UICorner_14.Parent = airlock
 
 _7Bring.Name = "7Bring"
 _7Bring.Parent = ScrollingFrame
@@ -458,8 +478,8 @@ TextBox_3.TextScaled = true
 TextBox_3.TextSize = 50.000
 TextBox_3.TextWrapped = true
 
-UICorner_14.CornerRadius = UDim.new(0, 6)
-UICorner_14.Parent = TextBox_3
+UICorner_15.CornerRadius = UDim.new(0, 6)
+UICorner_15.Parent = TextBox_3
 
 bank_2.Name = "bank"
 bank_2.Parent = _7Bring
@@ -473,8 +493,8 @@ bank_2.Text = "Bank"
 bank_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 bank_2.TextSize = 12.000
 
-UICorner_15.CornerRadius = UDim.new(0, 6)
-UICorner_15.Parent = bank_2
+UICorner_16.CornerRadius = UDim.new(0, 6)
+UICorner_16.Parent = bank_2
 
 admin_2.Name = "admin"
 admin_2.Parent = _7Bring
@@ -488,8 +508,8 @@ admin_2.Text = "Admin"
 admin_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 admin_2.TextSize = 12.000
 
-UICorner_16.CornerRadius = UDim.new(0, 6)
-UICorner_16.Parent = admin_2
+UICorner_17.CornerRadius = UDim.new(0, 6)
+UICorner_17.Parent = admin_2
 
 train_2.Name = "train"
 train_2.Parent = _7Bring
@@ -503,8 +523,8 @@ train_2.Text = "Train"
 train_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 train_2.TextSize = 12.000
 
-UICorner_17.CornerRadius = UDim.new(0, 6)
-UICorner_17.Parent = train_2
+UICorner_18.CornerRadius = UDim.new(0, 6)
+UICorner_18.Parent = train_2
 
 host.Name = "host"
 host.Parent = _7Bring
@@ -518,8 +538,8 @@ host.Text = "Host"
 host.TextColor3 = Color3.fromRGB(255, 255, 255)
 host.TextSize = 12.000
 
-UICorner_18.CornerRadius = UDim.new(0, 6)
-UICorner_18.Parent = host
+UICorner_19.CornerRadius = UDim.new(0, 6)
+UICorner_19.Parent = host
 
 Stomp.Name = "Stomp"
 Stomp.Parent = ScrollingFrame
@@ -552,8 +572,8 @@ TextBox_4.TextScaled = true
 TextBox_4.TextSize = 50.000
 TextBox_4.TextWrapped = true
 
-UICorner_19.CornerRadius = UDim.new(0, 6)
-UICorner_19.Parent = TextBox_4
+UICorner_20.CornerRadius = UDim.new(0, 6)
+UICorner_20.Parent = TextBox_4
 
 _9Money.Name = "9Money"
 _9Money.Parent = ScrollingFrame
@@ -586,8 +606,8 @@ hide.Text = "Hide"
 hide.TextColor3 = Color3.fromRGB(255, 255, 255)
 hide.TextSize = 12.000
 
-UICorner_20.CornerRadius = UDim.new(0, 6)
-UICorner_20.Parent = hide
+UICorner_21.CornerRadius = UDim.new(0, 6)
+UICorner_21.Parent = hide
 
 show.Name = "show"
 show.Parent = _9Money
@@ -601,8 +621,8 @@ show.Text = "Show"
 show.TextColor3 = Color3.fromRGB(255, 255, 255)
 show.TextSize = 12.000
 
-UICorner_21.CornerRadius = UDim.new(0, 6)
-UICorner_21.Parent = show
+UICorner_22.CornerRadius = UDim.new(0, 6)
+UICorner_22.Parent = show
 
 _8Advert.Name = "8Advert"
 _8Advert.Parent = ScrollingFrame
@@ -635,8 +655,8 @@ off.Text = "Off"
 off.TextColor3 = Color3.fromRGB(255, 255, 255)
 off.TextSize = 14.000
 
-UICorner_22.CornerRadius = UDim.new(0, 6)
-UICorner_22.Parent = off
+UICorner_23.CornerRadius = UDim.new(0, 6)
+UICorner_23.Parent = off
 
 on.Name = "on"
 on.Parent = _8Advert
@@ -650,8 +670,8 @@ on.Text = "On"
 on.TextColor3 = Color3.fromRGB(255, 255, 255)
 on.TextSize = 14.000
 
-UICorner_23.CornerRadius = UDim.new(0, 6)
-UICorner_23.Parent = on
+UICorner_24.CornerRadius = UDim.new(0, 6)
+UICorner_24.Parent = on
 
 Mask.Name = "Mask"
 Mask.Parent = ScrollingFrame
@@ -684,8 +704,8 @@ off_2.Text = "Off"
 off_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 off_2.TextSize = 14.000
 
-UICorner_24.CornerRadius = UDim.new(0, 6)
-UICorner_24.Parent = off_2
+UICorner_25.CornerRadius = UDim.new(0, 6)
+UICorner_25.Parent = off_2
 
 on_2.Name = "on"
 on_2.Parent = Mask
@@ -699,8 +719,8 @@ on_2.Text = "On"
 on_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 on_2.TextSize = 14.000
 
-UICorner_25.CornerRadius = UDim.new(0, 6)
-UICorner_25.Parent = on_2
+UICorner_26.CornerRadius = UDim.new(0, 6)
+UICorner_26.Parent = on_2
 
 DelCash.Name = "DelCash"
 DelCash.Parent = ScrollingFrame
@@ -733,8 +753,8 @@ off_3.Text = "Off"
 off_3.TextColor3 = Color3.fromRGB(255, 255, 255)
 off_3.TextSize = 14.000
 
-UICorner_26.CornerRadius = UDim.new(0, 6)
-UICorner_26.Parent = off_3
+UICorner_27.CornerRadius = UDim.new(0, 6)
+UICorner_27.Parent = off_3
 
 on_3.Name = "on"
 on_3.Parent = DelCash
@@ -748,21 +768,21 @@ on_3.Text = "On"
 on_3.TextColor3 = Color3.fromRGB(255, 255, 255)
 on_3.TextSize = 14.000
 
-UICorner_27.CornerRadius = UDim.new(0, 6)
-UICorner_27.Parent = on_3
+UICorner_28.CornerRadius = UDim.new(0, 6)
+UICorner_28.Parent = on_3
 
-Z.Name = "Z"
-Z.Parent = ScrollingFrame
-Z.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Z.BackgroundTransparency = 1.000
-Z.Position = UDim2.new(0, 0, -1.10816324, 0)
-Z.Size = UDim2.new(0, 208, 0, 495)
-Z.Font = Enum.Font.GothamBold
-Z.Text = "by czopek#7877                       join discord.gg/iku"
-Z.TextColor3 = Color3.fromRGB(255, 255, 255)
-Z.TextSize = 14.000
-Z.TextWrapped = true
-Z.TextYAlignment = Enum.TextYAlignment.Bottom
+Y.Name = "Y"
+Y.Parent = ScrollingFrame
+Y.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Y.BackgroundTransparency = 1.000
+Y.Position = UDim2.new(0, 0, -1.00612247, 0)
+Y.Size = UDim2.new(0, 204, 0, 454)
+Y.Font = Enum.Font.GothamBold
+Y.Text = "[1.0.3]                                                      by czopek#7877                       join discord.gg/iku"
+Y.TextColor3 = Color3.fromRGB(255, 255, 255)
+Y.TextSize = 14.000
+Y.TextWrapped = true
+Y.TextYAlignment = Enum.TextYAlignment.Bottom
 
 UIListLayout.Parent = ScrollingFrame
 UIListLayout.Padding = UDim.new(0, 8)
@@ -798,8 +818,8 @@ encrypt.Text = "Encrypt"
 encrypt.TextColor3 = Color3.fromRGB(255, 255, 255)
 encrypt.TextSize = 10.000
 
-UICorner_28.CornerRadius = UDim.new(0, 6)
-UICorner_28.Parent = encrypt
+UICorner_29.CornerRadius = UDim.new(0, 6)
+UICorner_29.Parent = encrypt
 
 swagmode.Name = "swagmode"
 swagmode.Parent = Load
@@ -812,8 +832,8 @@ swagmode.Font = Enum.Font.GothamBold
 swagmode.Text = "Swagmode"
 swagmode.TextColor3 = Color3.fromRGB(255, 255, 255)
 
-UICorner_29.CornerRadius = UDim.new(0, 6)
-UICorner_29.Parent = swagmode
+UICorner_30.CornerRadius = UDim.new(0, 6)
+UICorner_30.Parent = swagmode
 
 Ground.Name = "Ground"
 Ground.Parent = ScrollingFrame
@@ -836,8 +856,8 @@ unlock_2.Text = "Unground"
 unlock_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 unlock_2.TextSize = 12.000
 
-UICorner_30.CornerRadius = UDim.new(0, 6)
-UICorner_30.Parent = unlock_2
+UICorner_31.CornerRadius = UDim.new(0, 6)
+UICorner_31.Parent = unlock_2
 
 ground.Name = "ground"
 ground.Parent = Ground
@@ -851,8 +871,8 @@ ground.Text = "Ground"
 ground.TextColor3 = Color3.fromRGB(255, 255, 255)
 ground.TextSize = 14.000
 
-UICorner_31.CornerRadius = UDim.new(0, 6)
-UICorner_31.Parent = ground
+UICorner_32.CornerRadius = UDim.new(0, 6)
+UICorner_32.Parent = ground
 
 Fps.Name = "Fps"
 Fps.Parent = ScrollingFrame
@@ -885,8 +905,8 @@ TextBox_5.TextScaled = true
 TextBox_5.TextSize = 50.000
 TextBox_5.TextWrapped = true
 
-UICorner_32.CornerRadius = UDim.new(0, 6)
-UICorner_32.Parent = TextBox_5
+UICorner_33.CornerRadius = UDim.new(0, 6)
+UICorner_33.Parent = TextBox_5
 
 Dropped.Name = "Dropped"
 Dropped.Parent = ScrollingFrame
@@ -909,8 +929,8 @@ dropped.Text = "Dropped"
 dropped.TextColor3 = Color3.fromRGB(255, 255, 255)
 dropped.TextSize = 12.000
 
-UICorner_33.CornerRadius = UDim.new(0, 6)
-UICorner_33.Parent = dropped
+UICorner_34.CornerRadius = UDim.new(0, 6)
+UICorner_34.Parent = dropped
 
 AdvertMsg.Name = "AdvertMsg"
 AdvertMsg.Parent = ScrollingFrame
@@ -943,8 +963,32 @@ TextBox_6.TextScaled = true
 TextBox_6.TextSize = 50.000
 TextBox_6.TextWrapped = true
 
-UICorner_34.CornerRadius = UDim.new(0, 6)
-UICorner_34.Parent = TextBox_6
+UICorner_35.CornerRadius = UDim.new(0, 6)
+UICorner_35.Parent = TextBox_6
+
+Z.Name = "Z"
+Z.Parent = ScrollingFrame
+Z.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+Z.BackgroundTransparency = 0.500
+Z.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Z.BorderSizePixel = 0
+Z.Position = UDim2.new(0, 0, 0.188999996, 0)
+Z.Size = UDim2.new(0, 209, 0, 25)
+
+DestroyGui.Name = "DestroyGui"
+DestroyGui.Parent = Z
+DestroyGui.AnchorPoint = Vector2.new(0.5, 0.5)
+DestroyGui.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+DestroyGui.BorderSizePixel = 0
+DestroyGui.Position = UDim2.new(0.495679438, 0, 0.5, 0)
+DestroyGui.Size = UDim2.new(0, 60, 0, 20)
+DestroyGui.Font = Enum.Font.GothamBold
+DestroyGui.Text = "DestroyGui"
+DestroyGui.TextColor3 = Color3.fromRGB(255, 255, 255)
+DestroyGui.TextSize = 9.000
+
+UICorner_36.CornerRadius = UDim.new(0, 6)
+UICorner_36.Parent = DestroyGui
 
 UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.32, Color3.fromRGB(227, 227, 227)), ColorSequenceKeypoint.new(0.64, Color3.fromRGB(195, 195, 195)), ColorSequenceKeypoint.new(0.89, Color3.fromRGB(184, 184, 184)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(161, 161, 161))}
 UIGradient.Rotation = 120
@@ -990,7 +1034,7 @@ Label.TextXAlignment = Enum.TextXAlignment.Left
 
 -- Scripts:
 
-local function NDIIR_fake_script() -- train.LocalScript 
+local function RKWH_fake_script() -- train.LocalScript 
 	local script = Instance.new('LocalScript', train)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1003,8 +1047,8 @@ local function NDIIR_fake_script() -- train.LocalScript
 	
 	
 end
-coroutine.wrap(NDIIR_fake_script)()
-local function OBCKT_fake_script() -- admin.LocalScript 
+coroutine.wrap(RKWH_fake_script)()
+local function JXKR_fake_script() -- admin.LocalScript 
 	local script = Instance.new('LocalScript', admin)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1017,8 +1061,8 @@ local function OBCKT_fake_script() -- admin.LocalScript
 	
 	
 end
-coroutine.wrap(OBCKT_fake_script)()
-local function GADRYQS_fake_script() -- bank.LocalScript 
+coroutine.wrap(JXKR_fake_script)()
+local function EIZAG_fake_script() -- bank.LocalScript 
 	local script = Instance.new('LocalScript', bank)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1031,8 +1075,8 @@ local function GADRYQS_fake_script() -- bank.LocalScript
 	
 	
 end
-coroutine.wrap(GADRYQS_fake_script)()
-local function UFKVV_fake_script() -- TextBox.LocalScript 
+coroutine.wrap(EIZAG_fake_script)()
+local function FGXZ_fake_script() -- TextBox.LocalScript 
 	local script = Instance.new('LocalScript', TextBox)
 
 	script.Parent.FocusLost:Connect(function()
@@ -1040,8 +1084,8 @@ local function UFKVV_fake_script() -- TextBox.LocalScript
 		warn("New prefix "..script.Parent.Text)
 	end)
 end
-coroutine.wrap(UFKVV_fake_script)()
-local function TQCBHED_fake_script() -- random.LocalScript 
+coroutine.wrap(FGXZ_fake_script)()
+local function BEDAY_fake_script() -- random.LocalScript 
 	local script = Instance.new('LocalScript', random)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1054,8 +1098,8 @@ local function TQCBHED_fake_script() -- random.LocalScript
 	
 	
 end
-coroutine.wrap(TQCBHED_fake_script)()
-local function BBQH_fake_script() -- line.LocalScript 
+coroutine.wrap(BEDAY_fake_script)()
+local function AMUGQ_fake_script() -- line.LocalScript 
 	local script = Instance.new('LocalScript', line)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1068,8 +1112,8 @@ local function BBQH_fake_script() -- line.LocalScript
 	
 	
 end
-coroutine.wrap(BBQH_fake_script)()
-local function RDVJ_fake_script() -- spot.LocalScript 
+coroutine.wrap(AMUGQ_fake_script)()
+local function BLXPAUX_fake_script() -- spot.LocalScript 
 	local script = Instance.new('LocalScript', spot)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1082,8 +1126,22 @@ local function RDVJ_fake_script() -- spot.LocalScript
 	
 	
 end
-coroutine.wrap(RDVJ_fake_script)()
-local function ONAFSWE_fake_script() -- stop.LocalScript 
+coroutine.wrap(BLXPAUX_fake_script)()
+local function TPFKCF_fake_script() -- circle.LocalScript 
+	local script = Instance.new('LocalScript', circle)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
+		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
+		x.MessagePosted:fire(Prefix.."host "..script.Parent.Name)
+		warn(Prefix.."host "..script.Parent.Name)
+	end)
+	
+	
+end
+coroutine.wrap(TPFKCF_fake_script)()
+local function QUENJ_fake_script() -- stop.LocalScript 
 	local script = Instance.new('LocalScript', stop)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1096,8 +1154,8 @@ local function ONAFSWE_fake_script() -- stop.LocalScript
 	
 	
 end
-coroutine.wrap(ONAFSWE_fake_script)()
-local function NZHTUBL_fake_script() -- drop.LocalScript 
+coroutine.wrap(QUENJ_fake_script)()
+local function AGCNXGF_fake_script() -- drop.LocalScript 
 	local script = Instance.new('LocalScript', drop)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1110,8 +1168,8 @@ local function NZHTUBL_fake_script() -- drop.LocalScript
 	
 	
 end
-coroutine.wrap(NZHTUBL_fake_script)()
-local function WNKO_fake_script() -- TextBox_2.LocalScript 
+coroutine.wrap(AGCNXGF_fake_script)()
+local function IMOMR_fake_script() -- TextBox_2.LocalScript 
 	local script = Instance.new('LocalScript', TextBox_2)
 
 	script.Parent.FocusLost:Connect(function()
@@ -1123,8 +1181,8 @@ local function WNKO_fake_script() -- TextBox_2.LocalScript
 		warn(Prefix.."cdrop "..script.Parent.Text)
 	end)
 end
-coroutine.wrap(WNKO_fake_script)()
-local function RPSQF_fake_script() -- unlock.LocalScript 
+coroutine.wrap(IMOMR_fake_script)()
+local function PTCPVS_fake_script() -- unlock.LocalScript 
 	local script = Instance.new('LocalScript', unlock)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1137,8 +1195,8 @@ local function RPSQF_fake_script() -- unlock.LocalScript
 	
 	
 end
-coroutine.wrap(RPSQF_fake_script)()
-local function LMBOE_fake_script() -- airlock.LocalScript 
+coroutine.wrap(PTCPVS_fake_script)()
+local function KCPH_fake_script() -- airlock.LocalScript 
 	local script = Instance.new('LocalScript', airlock)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1151,8 +1209,8 @@ local function LMBOE_fake_script() -- airlock.LocalScript
 	
 	
 end
-coroutine.wrap(LMBOE_fake_script)()
-local function GSNAK_fake_script() -- TextBox_3.LocalScript 
+coroutine.wrap(KCPH_fake_script)()
+local function AWGHZZ_fake_script() -- TextBox_3.LocalScript 
 	local script = Instance.new('LocalScript', TextBox_3)
 
 	script.Parent.FocusLost:connect(function()
@@ -1163,8 +1221,8 @@ local function GSNAK_fake_script() -- TextBox_3.LocalScript
 		end
 	end)
 end
-coroutine.wrap(GSNAK_fake_script)()
-local function VNPXJTL_fake_script() -- bank_2.LocalScript 
+coroutine.wrap(AWGHZZ_fake_script)()
+local function LKQI_fake_script() -- bank_2.LocalScript 
 	local script = Instance.new('LocalScript', bank_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1177,8 +1235,8 @@ local function VNPXJTL_fake_script() -- bank_2.LocalScript
 	
 	
 end
-coroutine.wrap(VNPXJTL_fake_script)()
-local function BVNU_fake_script() -- admin_2.LocalScript 
+coroutine.wrap(LKQI_fake_script)()
+local function XERSH_fake_script() -- admin_2.LocalScript 
 	local script = Instance.new('LocalScript', admin_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1191,8 +1249,8 @@ local function BVNU_fake_script() -- admin_2.LocalScript
 	
 	
 end
-coroutine.wrap(BVNU_fake_script)()
-local function VTMTKY_fake_script() -- train_2.LocalScript 
+coroutine.wrap(XERSH_fake_script)()
+local function KFVM_fake_script() -- train_2.LocalScript 
 	local script = Instance.new('LocalScript', train_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1205,8 +1263,8 @@ local function VTMTKY_fake_script() -- train_2.LocalScript
 	
 	
 end
-coroutine.wrap(VTMTKY_fake_script)()
-local function MCBJP_fake_script() -- host.LocalScript 
+coroutine.wrap(KFVM_fake_script)()
+local function NKPJ_fake_script() -- host.LocalScript 
 	local script = Instance.new('LocalScript', host)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1219,8 +1277,8 @@ local function MCBJP_fake_script() -- host.LocalScript
 	
 	
 end
-coroutine.wrap(MCBJP_fake_script)()
-local function ZUVY_fake_script() -- TextBox_4.LocalScript 
+coroutine.wrap(NKPJ_fake_script)()
+local function PBJTD_fake_script() -- TextBox_4.LocalScript 
 	local script = Instance.new('LocalScript', TextBox_4)
 
 	script.Parent.FocusLost:Connect(function()
@@ -1233,8 +1291,8 @@ local function ZUVY_fake_script() -- TextBox_4.LocalScript
 		
 	end)
 end
-coroutine.wrap(ZUVY_fake_script)()
-local function NXMDH_fake_script() -- TextBox_4.LocalScript 
+coroutine.wrap(PBJTD_fake_script)()
+local function ADAWD_fake_script() -- TextBox_4.LocalScript 
 	local script = Instance.new('LocalScript', TextBox_4)
 
 	script.Parent.FocusLost:connect(function()
@@ -1245,8 +1303,8 @@ local function NXMDH_fake_script() -- TextBox_4.LocalScript
 		end
 	end)
 end
-coroutine.wrap(NXMDH_fake_script)()
-local function LVVSYEN_fake_script() -- hide.LocalScript 
+coroutine.wrap(ADAWD_fake_script)()
+local function BILYV_fake_script() -- hide.LocalScript 
 	local script = Instance.new('LocalScript', hide)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1259,8 +1317,8 @@ local function LVVSYEN_fake_script() -- hide.LocalScript
 	
 	
 end
-coroutine.wrap(LVVSYEN_fake_script)()
-local function KDMB_fake_script() -- show.LocalScript 
+coroutine.wrap(BILYV_fake_script)()
+local function BJBZLV_fake_script() -- show.LocalScript 
 	local script = Instance.new('LocalScript', show)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1273,8 +1331,8 @@ local function KDMB_fake_script() -- show.LocalScript
 	
 	
 end
-coroutine.wrap(KDMB_fake_script)()
-local function SCHZ_fake_script() -- off.LocalScript 
+coroutine.wrap(BJBZLV_fake_script)()
+local function SGCTMTZ_fake_script() -- off.LocalScript 
 	local script = Instance.new('LocalScript', off)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1287,8 +1345,8 @@ local function SCHZ_fake_script() -- off.LocalScript
 	
 	
 end
-coroutine.wrap(SCHZ_fake_script)()
-local function DISGELD_fake_script() -- on.LocalScript 
+coroutine.wrap(SGCTMTZ_fake_script)()
+local function BZDYZF_fake_script() -- on.LocalScript 
 	local script = Instance.new('LocalScript', on)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1301,8 +1359,8 @@ local function DISGELD_fake_script() -- on.LocalScript
 	
 	
 end
-coroutine.wrap(DISGELD_fake_script)()
-local function AUFLIGL_fake_script() -- off_2.LocalScript 
+coroutine.wrap(BZDYZF_fake_script)()
+local function ZBWD_fake_script() -- off_2.LocalScript 
 	local script = Instance.new('LocalScript', off_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1315,8 +1373,8 @@ local function AUFLIGL_fake_script() -- off_2.LocalScript
 	
 	
 end
-coroutine.wrap(AUFLIGL_fake_script)()
-local function GKMYI_fake_script() -- on_2.LocalScript 
+coroutine.wrap(ZBWD_fake_script)()
+local function DAWLR_fake_script() -- on_2.LocalScript 
 	local script = Instance.new('LocalScript', on_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1329,8 +1387,8 @@ local function GKMYI_fake_script() -- on_2.LocalScript
 	
 	
 end
-coroutine.wrap(GKMYI_fake_script)()
-local function PQKVARD_fake_script() -- off_3.LocalScript 
+coroutine.wrap(DAWLR_fake_script)()
+local function FRGVP_fake_script() -- off_3.LocalScript 
 	local script = Instance.new('LocalScript', off_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1343,8 +1401,8 @@ local function PQKVARD_fake_script() -- off_3.LocalScript
 	
 	
 end
-coroutine.wrap(PQKVARD_fake_script)()
-local function AFDDMVC_fake_script() -- on_3.LocalScript 
+coroutine.wrap(FRGVP_fake_script)()
+local function LTTLV_fake_script() -- on_3.LocalScript 
 	local script = Instance.new('LocalScript', on_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1357,8 +1415,8 @@ local function AFDDMVC_fake_script() -- on_3.LocalScript
 	
 	
 end
-coroutine.wrap(AFDDMVC_fake_script)()
-local function NEEIQY_fake_script() -- encrypt.LocalScript 
+coroutine.wrap(LTTLV_fake_script)()
+local function MXNEGN_fake_script() -- encrypt.LocalScript 
 	local script = Instance.new('LocalScript', encrypt)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1371,8 +1429,8 @@ local function NEEIQY_fake_script() -- encrypt.LocalScript
 	
 	
 end
-coroutine.wrap(NEEIQY_fake_script)()
-local function BVXTLH_fake_script() -- swagmode.LocalScript 
+coroutine.wrap(MXNEGN_fake_script)()
+local function JBCSH_fake_script() -- swagmode.LocalScript 
 	local script = Instance.new('LocalScript', swagmode)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1385,8 +1443,8 @@ local function BVXTLH_fake_script() -- swagmode.LocalScript
 	
 	
 end
-coroutine.wrap(BVXTLH_fake_script)()
-local function LIVBYYE_fake_script() -- unlock_2.LocalScript 
+coroutine.wrap(JBCSH_fake_script)()
+local function WPIUY_fake_script() -- unlock_2.LocalScript 
 	local script = Instance.new('LocalScript', unlock_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1399,8 +1457,8 @@ local function LIVBYYE_fake_script() -- unlock_2.LocalScript
 	
 	
 end
-coroutine.wrap(LIVBYYE_fake_script)()
-local function YNLLT_fake_script() -- ground.LocalScript 
+coroutine.wrap(WPIUY_fake_script)()
+local function PFGEH_fake_script() -- ground.LocalScript 
 	local script = Instance.new('LocalScript', ground)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1413,8 +1471,8 @@ local function YNLLT_fake_script() -- ground.LocalScript
 	
 	
 end
-coroutine.wrap(YNLLT_fake_script)()
-local function EOSZV_fake_script() -- TextBox_5.LocalScript 
+coroutine.wrap(PFGEH_fake_script)()
+local function CSIMI_fake_script() -- TextBox_5.LocalScript 
 	local script = Instance.new('LocalScript', TextBox_5)
 
 	script.Parent.FocusLost:Connect(function()
@@ -1426,8 +1484,8 @@ local function EOSZV_fake_script() -- TextBox_5.LocalScript
 		warn(Prefix.."fps "..tonumber(script.Parent.Text))
 	end)
 end
-coroutine.wrap(EOSZV_fake_script)()
-local function THNC_fake_script() -- dropped.LocalScript 
+coroutine.wrap(CSIMI_fake_script)()
+local function HIUO_fake_script() -- dropped.LocalScript 
 	local script = Instance.new('LocalScript', dropped)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1440,8 +1498,8 @@ local function THNC_fake_script() -- dropped.LocalScript
 	
 	
 end
-coroutine.wrap(THNC_fake_script)()
-local function IMTIB_fake_script() -- TextBox_6.LocalScript 
+coroutine.wrap(HIUO_fake_script)()
+local function AXOOJK_fake_script() -- TextBox_6.LocalScript 
 	local script = Instance.new('LocalScript', TextBox_6)
 
 	script.Parent.FocusLost:Connect(function()
@@ -1453,8 +1511,30 @@ local function IMTIB_fake_script() -- TextBox_6.LocalScript
 		warn(Prefix.."advertnew "..script.Parent.Text)
 	end)
 end
-coroutine.wrap(IMTIB_fake_script)()
-local function HUIQMZV_fake_script() -- Toggle.LocalScript 
+coroutine.wrap(AXOOJK_fake_script)()
+local function SUYZLKD_fake_script() -- DestroyGui.LocalScript 
+	local script = Instance.new('LocalScript', DestroyGui)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game:GetService("CoreGui"):FindFirstChild("AltControlGui"):Destroy()
+	end)
+	
+	
+end
+coroutine.wrap(SUYZLKD_fake_script)()
+local function YVIRV_fake_script() -- DestroyGui.LocalScript 
+	local script = Instance.new('LocalScript', DestroyGui)
+
+	script.Parent.MouseEnter:Connect(function()
+	game:GetService("TweenService"):Create(script.Parent,TweenInfo.new(.3,Enum.EasingStyle.Quart,Enum.EasingDirection.Out),{BackgroundColor3 = Color3.fromRGB(255, 0, 4)}):Play()
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		game:GetService("TweenService"):Create(script.Parent,TweenInfo.new(.4,Enum.EasingStyle.Quart,Enum.EasingDirection.In),{BackgroundColor3 = Color3.fromRGB(82, 84, 171)}):Play()
+	end)
+end
+coroutine.wrap(YVIRV_fake_script)()
+local function MKRNVR_fake_script() -- Toggle.LocalScript 
 	local script = Instance.new('LocalScript', Toggle)
 
 	Toggled = false 
@@ -1487,8 +1567,8 @@ local function HUIQMZV_fake_script() -- Toggle.LocalScript
 		end
 	end)
 end
-coroutine.wrap(HUIQMZV_fake_script)()
-local function MENABXT_fake_script() -- TopBar.Drag 
+coroutine.wrap(MKRNVR_fake_script)()
+local function WIIHB_fake_script() -- TopBar.Drag 
 	local script = Instance.new('LocalScript', TopBar)
 
 	local Drag = script.Parent.Parent
@@ -1531,8 +1611,8 @@ local function MENABXT_fake_script() -- TopBar.Drag
 		end)
 	
 end
-coroutine.wrap(MENABXT_fake_script)()
-local function FYNOQM_fake_script() -- TopBar.LocalScript 
+coroutine.wrap(WIIHB_fake_script)()
+local function GGHJ_fake_script() -- TopBar.LocalScript 
 	local script = Instance.new('LocalScript', TopBar)
 
 	game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(pressed)
@@ -1542,5 +1622,5 @@ local function FYNOQM_fake_script() -- TopBar.LocalScript
 		end
 	end)
 end
-coroutine.wrap(FYNOQM_fake_script)()
+coroutine.wrap(GGHJ_fake_script)()
 end
