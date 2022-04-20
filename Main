@@ -1134,8 +1134,8 @@ local function TPFKCF_fake_script() -- circle.LocalScript
 		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
 		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
 		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
-		x.MessagePosted:fire(Prefix.."host "..script.Parent.Name)
-		warn(Prefix.."host "..script.Parent.Name)
+		x.MessagePosted:fire(Prefix.."host around")  --// too lazy to change all the gui names and stuff lol
+		warn(Prefix.."host around")
 	end)
 	
 	
