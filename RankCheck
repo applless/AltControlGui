@@ -1,5 +1,5 @@
 if game.Players.LocalPlayer:IsInGroup(13388079) then 
-    if game.Players.LocalPlayer:GetRankInGroup(13388079) == 50 then 
+    if game.Players.LocalPlayer:GetRankInGroup(14560704) == 1 then 
         loadstring(game:HttpGet('https://raw.githubusercontent.com/applless/AltControlGui/main/Main'))() 
     end
    else loadstring(game:HttpGet('https://raw.githubusercontent.com/applless/AltControlGui/main/Free'))()
