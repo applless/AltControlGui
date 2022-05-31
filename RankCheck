@@ -1,3 +1,8 @@
+if not game:IsLoaded() then
+	game.Loaded:Wait()
+end
+repeat wait() until game.Players.LocalPlayer and game.Players.LocalPlayer.Character
+task.wait()
 if game.Players.LocalPlayer:IsInGroup(13388079) then 
     if game.Players.LocalPlayer:GetRankInGroup(13388079) == 50 then 
         loadstring(game:HttpGet('https://raw.githubusercontent.com/applless/AltControlGui/main/Main'))() 
