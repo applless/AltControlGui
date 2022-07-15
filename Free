@@ -1,3 +1,8 @@
+repeat task.wait() until game:IsLoaded() and game.Players.LocalPlayer
+task.wait(1)
+game.StarterGui:SetCore("SendNotification",{Title ="Alt Control Gui",Text ="Patched cuz roblox is bad 😨",Duration =15})
+
+--[[
 if game.CoreGui:FindFirstChild("AltControlGui") then game.StarterGui:SetCore("SendNotification",{Title ="Alt Control Gui",Text ="Script already executed! Also buy prem .gg/iku",Duration =25}) else
 
 local AltControlGui = Instance.new("ScreenGui")
@@ -489,3 +494,4 @@ local function LPYPQPB_fake_script() -- TopBar.Drag
 end
 coroutine.wrap(LPYPQPB_fake_script)()
 end
+]]
