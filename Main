@@ -1,3 +1,8 @@
+repeat task.wait() until game:IsLoaded() and game.Players.LocalPlayer
+task.wait(1)
+game.StarterGui:SetCore("SendNotification",{Title ="Alt Control Gui",Text ="Patched cuz roblox is bad 😨",Duration =15})
+
+--[[
 if game.CoreGui:FindFirstChild("AltControlGui") then game.StarterGui:SetCore("SendNotification",{Title ="Alt Control Gui [1.0.3]",Text ="Script already executed!",Duration =25}) else
 game.StarterGui:SetCore("SendNotification",{Title ="Alt Control Gui [1.0.3]",Text ="Added host circle 😱😱, dm czopek#7877 if any bugs",Duration =25})
 local AltControlGui = Instance.new("ScreenGui")
@@ -1624,3 +1629,4 @@ local function GGHJ_fake_script() -- TopBar.LocalScript
 end
 coroutine.wrap(GGHJ_fake_script)()
 end
+]]
